@@ -1,10 +1,13 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     background-image:linear-gradient(to right, #05012b,#02367b);
-    color: #333;
+    color: #ffffffba;
     line-height: 1.6;
 }
 
@@ -34,6 +37,26 @@ nav a {
     color: #e0e6ff;
     font-weight: bold;
     transition: color 0.3s ease;
+}
+
+.a{
+    text-decoration: none;
+    color: #e0e6ff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    background-color: #02367b;
+    padding: 10px;
+    border-radius: 10px;
+}
+.a-contacto{
+    text-decoration: none;
+    color: #e0e6ff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 15px;
+}
+.contactos{
+    align-items: start ;
 }
 
 nav a:hover {
@@ -132,6 +155,7 @@ main {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(113, 152, 244, 0.216);
     transition: transform 0.3s ease;
+    padding-bottom: 15px;
 }
 .proyecto div{
     background: #dee3ff;
@@ -207,5 +231,8 @@ footer {
 
     .grid {
         grid-template-columns: 1fr;
+    }
+    .img-hero{
+        height: 250px;
     }
 }
